@@ -322,6 +322,7 @@ section{padding:clamp(1.4rem,3vw,2.2rem) 0 0}
 .rep-card.c7{--acc:#C97A00;--acc2:#8F5700}
 .rep-card.c8{--acc:#5A63FF;--acc2:var(--sky-700)}
 .rep-card.c9{--acc:#E0447A;--acc2:#C93E63}
+.rep-card.c10{--acc:#2A8FD6;--acc2:var(--sky-900)}
 
 .rep-group-label{display:flex;align-items:center;gap:.7rem;font-family:var(--ff-display);font-size:clamp(1.25rem,2.4vw,1.55rem);font-weight:700;letter-spacing:-.01em;color:var(--text);margin-top:.9rem;margin-bottom:.35rem}
 .rep-group-label .dot{width:13px;height:13px;border-radius:50%;background:#2ecc71;flex:none;box-shadow:0 0 0 6px rgba(46,204,113,.18)}
@@ -623,18 +624,18 @@ footer .fine{grid-column:1;grid-row:2;margin:0;font-size:.72rem;color:var(--mute
     <div class="wrap">
       <div class="col">
         <div class="eyebrow">Репертуар</div>
-        <h2>9 сказок театра «Парус»</h2>
+        <h2>10 сказок театра «Парус»</h2>
         <p class="lead one-line" style="margin-top:.7rem">Каждая сказка-спектакль имеет свою тему: от вежливых слов до правил в лесу. Возраст 0–10 лет, длительность около 30 минут.</p>
       </div>
       <div class="rep-group-label active"><span class="dot"></span>Сказки, которые могут прийти к вам сейчас</div>
       <div class="repgrid current" style="margin-top:.9rem">
 
-        <article class="rep-card c3">
-          <div class="rep-poster"><img loading="lazy" decoding="async" src="images/poster-doroga.jpg" alt="Афиша «Дорога правильных дел»"><span class="age">0–10</span></div>
+        <article class="rep-card c10">
+          <div class="rep-poster"><img loading="lazy" decoding="async" src="images/poster-zima.jpg" alt="Афиша «К зиме в гости»"><span class="age">0–10</span></div>
           <div class="rep-body">
-            <h3>«Дорога правильных дел»</h3>
-            <div class="tags"><span class="tag">Безопасность</span><span class="tag">Воспитание</span></div>
-            <p>Герои разбираются, что можно, а что нельзя: доброта, правила поведения, дорожная и пожарная безопасность — всё через игру, а не назидание.</p>
+            <h3>«К зиме в гости»</h3>
+            <div class="tags"><span class="tag">Безопасность</span><span class="tag">Зима</span></div>
+            <p>Зима пришла в гости — и дети вместе с героями учатся её правилам: одеваться по погоде, не выходить на лёд, не кататься с горок у дороги и не уходить с незнакомыми.</p>
           </div>
         </article>
         <article class="rep-card c5">
@@ -650,7 +651,15 @@ footer .fine{grid-column:1;grid-row:2;margin:0;font-size:.72rem;color:var(--mute
       <div class="rep-group-label resting" style="margin-top:2.2rem"><span class="dot"></span>Сказки, которые сейчас отдыхают</div>
       <div class="repgrid resting is-collapsed" id="restingGrid" style="margin-top:.9rem">
 
-        <article class="rep-card c1 keep-m k1">
+        <article class="rep-card c3 keep-m k1">
+          <div class="rep-poster"><img loading="lazy" decoding="async" src="images/poster-doroga.jpg" alt="Афиша «Дорога правильных дел»"><span class="age">0–10</span></div>
+          <div class="rep-body">
+            <h3>«Дорога правильных дел»</h3>
+            <div class="tags"><span class="tag">Безопасность</span><span class="tag">Воспитание</span></div>
+            <p>Герои разбираются, что можно, а что нельзя: доброта, правила поведения, дорожная и пожарная безопасность — всё через игру, а не назидание.</p>
+          </div>
+        </article>
+        <article class="rep-card c1 keep-m k2">
           <div class="rep-poster"><img loading="lazy" decoding="async" src="images/poster-okean.jpg" alt="Афиша «Океан добра»"><span class="age">0–10</span></div>
           <div class="rep-body">
             <h3>«Океан добра»</h3>
@@ -674,7 +683,7 @@ footer .fine{grid-column:1;grid-row:2;margin:0;font-size:.72rem;color:var(--mute
             <p>Незнайка и его друзья учат правилам гигиены, пожарной безопасности и дружбе — со смехом и без единой скучной минуты.</p>
           </div>
         </article>
-        <article class="rep-card c6 keep-m k3">
+        <article class="rep-card c6">
           <div class="rep-poster"><img loading="lazy" decoding="async" src="images/poster-kosmos.jpg" alt="Афиша «Есть ли в космосе друзья?»"><span class="age">0–10</span></div>
           <div class="rep-body">
             <h3>«Есть ли в космосе друзья?»</h3>
@@ -682,7 +691,7 @@ footer .fine{grid-column:1;grid-row:2;margin:0;font-size:.72rem;color:var(--mute
             <p>Космонавт Васюта, тренер Ван Ваныч и говорящая капибара летят по галактике и помогают потерявшемуся яйцу найти родную планету — а заодно обсуждают с детьми правила безопасности с огнём и полезную еду.</p>
           </div>
         </article>
-        <article class="rep-card c7 keep-m k2">
+        <article class="rep-card c7 keep-m k3">
           <div class="rep-poster"><img loading="lazy" decoding="async" src="images/poster-kuzya.jpg" alt="Афиша «Домовёнок Кузя на планете знаний»"><span class="age">0–10</span></div>
           <div class="rep-body">
             <h3>«Домовёнок Кузя на планете знаний»</h3>
